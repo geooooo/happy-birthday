@@ -1,4 +1,4 @@
-const catWidth = 100;
+const catWidth = 300;
 let isMoveRight = true;
 
 window.onload = () => {
