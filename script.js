@@ -24,7 +24,7 @@ function move(cat) {
     const isLeftEdge = left <= step;
     if (isRightEdge) {
         isMoveRight = false;
-        cat.style.transform = "rotateY(180deg)";
+        cat.style.transform = "scale(-1, 1)";
     } else if (!isMoveRight && isLeftEdge) {
         cat.style.transform = "";
         isMoveRight = true;
