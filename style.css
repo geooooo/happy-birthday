@@ -65,7 +65,7 @@ html {
 .cat {
     overflow: visible;
     position: fixed;
-    top: 10%;
+    top: 10px;
     left: 10px;
     z-index: 2;
     background-image: url("cat.gif");
